@@ -31,6 +31,13 @@ class MovieListContainer extends Component {
           url: "https://www.imdb.com/title/tt4154664/?ref_=rlm"
         }
       ]
-    }
+    };
+  }
+  render() {
+    return (
+      <MovieList movies={this.state.movies}/>
+    );
   }
 }
+
+export default MovieListContainer;
