@@ -4,8 +4,8 @@ class Movie extends Component {
   render() {
     return (
       <>
-        <p>Movie: {this.props.name}</p>
-        <p>url: {this.props.children}</p>
+        <a href="this.props.children">Movie: {this.props.name}</a>
+        <br></br>
       </>
     );
   }
